@@ -1,0 +1,65 @@
+
+nav ul {
+  display: flex;
+
+}
+
+nav ul li {
+  margin-left: 25px;
+}
+
+html {
+
+
+}
+
+body {
+  background-image: url('https://www.ihdimages.com/wp-content/uploadsktz/2014/11/landscape_photography_trees_background_wallpaper.jpg');
+  background-size: cover;
+}
+
+.lnr-envelope {
+  font-size: 1.5em !important;
+}
+
+#main_wrapper {
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: rgba(129, 129, 129, 0.2);
+}
+
+#description {
+  float: left;
+  height: 650px;
+  margin-left: 50px;
+  overflow: scroll;
+  width: 300px;
+}
+
+#description, #information{
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 2px solid rgb(140, 0, 0);
+  border-radius: 25px;
+  color: rgb(128, 0, 0);
+}
+
+p, h1 {
+  margin: 15px;;
+}
+
+#information {
+  float: right;
+  height: 220px !important;
+  width: 667px !important;
+  margin-right: 190px;
+  overflow: scroll;
+}
+
+#add {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 50px;
+  margin-bottom: 25px;
+  color: rgb(164, 164, 164) !important;
+}
